@@ -1,0 +1,19 @@
+h4{
+    color:aquamarine;
+    font-style: inherit;
+}
+/* class selector */
+
+.text-warning{
+
+    color:chocolate;
+}
+
+/* id selector */
+
+#foo{
+
+    font-size: 40px;
+    background-color: aliceblue;
+    
+}

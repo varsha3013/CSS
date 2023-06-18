@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <body>
+        <title>Adding CSS</title>
+        <style>
+        /* jitne bhi paragraphs hain sabko select kar
+        aur iss declaration block mein jo rules hain uss para ko
+        apply kar, basically an internal stylesheet */
+         p  {
+
+             color:crimson;
+             font-size: 30px;
+                
+            }
+        </style>
+        <link rel="stylesheet" href="style.css">
+        <!-- inline style using style attribute -->
+        <h1 style="color:hsl(7, 62%, 26%);font-size:30px;font-weight:bolder
+        ;background-color:blanchedalmond">ADDING CSS</h1>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias totam, numquam voluptates corrupti modi optio consequuntur aut repellendus, possimus voluptate ad? Error saepe alias, odio consequuntur ut veniam labore atque a esse asperiores sapiente perferendis nisi amet qui repellendus debitis?</p>
+
+        <h4 class="text-warning">External Stylesheet</h4>
+        <h4 id="foo">Id selector</h4>
+        <p class="text-warning">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, sed.</p>
+      
+         <!-- inline stylesheet is 1st priority
+            internal is given 2nd priority
+            external stylesheet is given 3rd priority -->
+        <hr>
+
+
+
+        
+    </body>
+
+</head>
+
+</html>
