@@ -1,0 +1,19 @@
+p{
+    color:blueviolet ;
+}
+
+/* !important has highest priority */
+
+.border-primary{
+
+    color: #221f1f;
+
+    /* border-style : solid;
+    border-width : 10px;
+    border-color : blue; */
+    /* shorthand property */
+
+    border: 10px solid blueviolet;
+
+
+}
