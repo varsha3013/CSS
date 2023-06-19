@@ -1,0 +1,35 @@
+/* body selects the entire body and will apply border or any other property to the whole body */
+/* whereas * will select each and every elementt and will apply separate borders to the elements */
+
+body{
+    border: 2px solid red;
+}
+
+*{
+    border: 2px solid red;
+}
+
+/* bw parent and child divs, color given to the parent div is inherited, font related prop are also inherited */
+/* border, width, margin etc are not inherited by the child div from the parent */
+/* border box mein total space occupies will be 200px(width jitna) including width,margin,padding */
+/* in content box, jitni jagah leni hai lega, width ki alag, padding ki alag, margin ki alag */
+
+/* reset styles: suppose h1 tag mein koi heading likhi toh uski na upar aur neeche margin bohot hoti hai, it is by default given by browser, isliye
+what we use is a reset style jismein hum apne hisab se margin padding de sakte hai */
+.parent-div{
+
+    color:red;
+    border: 3px solid black;
+    padding: 30px;
+    margin: 20px;
+    width: 200px;
+    box-sizing: border-box;  
+    
+}
+/* reset styles */
+/* fonts from the font family can also be resetted here */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
