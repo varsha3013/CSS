@@ -1,0 +1,111 @@
+html{
+
+    font-size:16px;
+}
+
+ .ml{
+    margin-left: 20px;
+}
+ 
+.pr{
+    padding-right: 20px;
+}
+.border-warning{
+    border: 2px solid yellow;
+}
+
+body{
+    font-family:'Playfair Display', sans-serif;
+}
+
+.class-1,.class-2,#div-3{
+    color:aquamarine
+}
+
+/* child selector, class-1 ka immediate child, jo last hai p class-1 ke andar
+,usko lega */
+.class-1 > p{
+    color:brown;
+    /* border: 3px solid; */
+}
+
+.class-1 > .inner-div{
+
+    color:blueviolet;
+    border: 2px dotted ;
+}
+
+
+/* general sibling selector */
+
+#sibling ~ p
+{
+    color:blueviolet;
+}
+/* adjacent sibling selector, mtlb it will select direct sibling only */
+
+#sibling + p
+{
+    color:chocolate;
+} 
+
+body{
+
+    margin:0;
+}
+
+.vh-full{
+    border:1px solid blue;
+    height:100vh;
+    width:9vw;
+    /* 100vh mtlb 100% of the viewport height */
+
+
+
+}
+
+
+
+
+
+
+
+/* for different fonts, website is fonts.google.com */
+/* web safe fonts jo easily mil jaate hai, these are from the generic font family */
+/* aur koi font use krni hai toh import  yaa lin krna padega */
+/* in font, keep the 3rd one as generic one taaki usko aur kuch nhi toh 3rd vala toh mil hi jaaye */
+/* import aur link mein more preferred is link, import mein sab leke aake download krega  */
+/* always use font stack,3 fonts deneka,that is a font stack */
+/* child selector and descendent selector are 2 commonly used selectors */
+/* > will take only the immediate child and not andar vale saare children */
+/* , , krke likha hai toh it is a multiple selector */
+/* .class-1 p mtlb descendent selector, class-1 ke saare p uthayega */
+
+/* .class-1 > p{
+    color:brown;
+}
+
+.class-1 > .inner-div{
+
+    color:blueviolet;
+    border: 2px dotted ;
+} */
+
+/* in the above code, class-1 aur inner-div 2 classes hain, iski specificity kam hai, isliye
+isne color brown uthaya instead of blueviolet */
+/* class-1 > p ki specificity zyada hai, isliye blueviolet aake bhi cut ho jaa rha and
+brown color hi apply ho rha */
+
+/* units in css, px and % */
+/* suppose parent ki height is 400px and child ki h8 hum rakh rhe 20%, toh it will
+get a height of 20% of its height of the parent, mtlb body ki height ka 20%, %
+ is a relative unit */
+
+/* 01:22 */
+ /* 1.6 em mtlb 1.6*parent ki height */
+
+ /* rem mtlb it will go to the root elementi.e, html, html ka by default size is 16px
+ rem likha toh poore font ko size 16px milega */
+
+ /* vh:100 mtlb jitna viewport ki height uska 100% */
+ /* vw:100 mtlb jitni viewport ki width uska 100% */

@@ -5,9 +5,7 @@ body{
     border: 2px solid red;
 }
 
-*{
-    border: 2px solid red;
-}
+cc
 
 /* bw parent and child divs, color given to the parent div is inherited, font related prop are also inherited */
 /* border, width, margin etc are not inherited by the child div from the parent */
