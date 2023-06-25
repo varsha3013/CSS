@@ -1,0 +1,19 @@
+
+.bg-prop{
+height:1200px;
+
+background-image: url('https://media.istockphoto.com/id/1184313652/photo/festive-christmas-decorations-hang-from-the-ceiling-festive-decorative-lights-and-balls.jpg?s=612x612&w=0&k=20&c=nYyua9uLtjPND2A1ZGd-YnftsZBjbPmBp5sa5X5zOKI=');
+/* background-repeat: no-repeat; */
+background-position: center top;
+/* background-size: cover ; */
+
+
+}
+/* background-position: center top , 1st parameter is for x axis, 2nd parameter is for y axis*/
+
+
+/* either download the image in respective foldr or copy image address */
+
+/* background-size is width, height auto le leta hai with respect to image's resolution , 1st parameter is width, 2nd is h8*/
+
+/* cover, what it does is jabtak screen poori cover nahi hojati */
