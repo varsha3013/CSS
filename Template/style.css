@@ -8,6 +8,7 @@ it will work  as a collapsible margin, overlap hogi margin */
 *{
     margin:0;
     padding:0;
+   
 }
 
 
@@ -40,17 +41,60 @@ it will work  as a collapsible margin, overlap hogi margin */
     padding:30px;
     background-color:#ffb5a7;
     position: sticky;
-    top:40px;
+    top:0px;
    
+}
+
+.margin
+{
+    margin:30px 50px;
 }
 /* position:fixed, apni jagah se nikal jayega and top se 40px ayega, kitna b scroll karo rahega vahin fixed*/
 /* position: sticky, scroll karo kitna b, hoga scroll, par rukega top se 40px pe hi, body ki height 1800 px krke dekh and position fixed and
 sticky try kar*/
+/* navbar section ends */
+
+/* main section */
+.left
+{
+    display:inline-block;
+    width:50%;
+    vertical-align: top;
+    font-family: 'Bacasime Antique', serif;
+    font-family: 'Playfair Display', serif; 
+    
+} 
+
+.right
+{
+    display:inline-block;
+    width:50%;
+    vertical-align: top;
+    text-align: right;
+}
+img{
+
+    width:70%;
+    border-radius: 15px;
+    position: relative;
+    bottom:30px;
+    left:10;
+}
+.main
+{
+    margin:30px 50px;
+    background-color: #fcd5be;
+    vertical-align: top;
+    border-radius: 5px;
+    padding:15px;
+    padding-right: 0px;
+   
+}
 
 body{
 
     background-color: #fcd5ce;
-    height:1800px;
+    /* height:1800px; */
 }
 
 /* navbar section ends */
