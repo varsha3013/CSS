@@ -1,0 +1,50 @@
+
+/*child properties: we can define the order of each of the boxes, i.e, custom ordering, default order is 0, hum change karenge
+toh according to kind of a number line, ascending order mein arrange honge boxes */
+/* .box ke andar flex-grow :1 diya toh teeno boxes equal jagah lenge */
+/* flex shrink ka default value is 1 */
+/* flex grow ka default value is 0 */
+
+.box
+{
+
+    background-color:chartreuse;
+    color: white;
+    margin:2px;
+    height:300px;
+    flex-basis: 300px;
+    /* width:100px; */
+    /* flex-grow: 1; */
+}
+
+.flex-container
+{
+    display:flex;
+    flex-direction:column; 
+    /* flex-flow: row wrap-reverse; */
+    height:100vh;
+    width:700px;
+    border: 2px solid black;
+    /* flex-wrap: reverse; */
+    justify-content:flex-end;
+    align-items:start;
+
+}
+
+#box2
+{
+    order:1;
+    /* flex-grow:0; */
+    
+}
+
+#box3
+{
+    order:-1;
+    /* flex-grow:2; */
+    /* align-self: center;*/
+    align-self: end;
+} 
+
+
+
