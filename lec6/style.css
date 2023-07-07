@@ -1,13 +1,14 @@
 
 /* flex-container ko width diya, eg, 600px, and direction diya row reverse, toh right side se 600px chhodke uske baad se boxes start honge */
 /* PARENT PROP: FLEX-DIRECTION, FLEX WRAP */
-/* flex wrap ka by default prop is wrap */
+/* flex wrap ka by default prop is  no wrap */
 /* flex wrap box ke bahr jaane nhi dega boxes ko, instead, next line pe leke jayega */
 /* shorthand : flex direction & flex wrap  milaake flex flow banate hai*/
 /* br and hr tag do not work for flex */
 /*/* justify content justifies content on the main axis */
 /* main axis is horizontal axis */
 /* align items are going to work with cross axis(vertical vali) */
+/* align content: actually works with pooora row or column (Multiple), aligns them, if align content is given start   */
 .box
 {
     background-color: red;
@@ -21,7 +22,8 @@
 .flex-container
 {
     display:flex;
-    flex-direction:row-reverse; 
+    /* default flex-direction is row */
+    flex-direction:row-reverse;  
     /* flex-flow: row wrap-reverse; */
     /* height:100vh; */
     width:800px;

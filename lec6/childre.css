@@ -4,6 +4,13 @@ toh according to kind of a number line, ascending order mein arrange honge boxes
 /* .box ke andar flex-grow :1 diya toh teeno boxes equal jagah lenge */
 /* flex shrink ka default value is 1 */
 /* flex grow ka default value is 0 */
+/* flex basis: same as width in row, height in column */
+/* flex grow is unitless */
+/* flex: flex-grow flex-shrink  flex-basis, shorthand prop of giving flex */
+/* space-evenly: poori space ko frogs ke aju baju equally divide karega */
+/* space between: jo beech main space hai usko evenly batega, no spaces on side/ ends*/
+/* space-around: frogs ke dono aju baju  space dega */
+
 
 .box
 {
