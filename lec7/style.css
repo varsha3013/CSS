@@ -1,3 +1,10 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
 body
 {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
@@ -27,14 +34,115 @@ body{
 
 #objective
 {
-    
+
+    display:flex;
+    flex-direction: column;
     flex-grow:1;
     padding:40px;
 }
 
 .email
 {
+    
     display:flex;
     border: 2px solid black;
     justify-content: center;
+    align-items: center;
 }
+
+
+/* main section */
+.col-auto
+{
+    flex-basis: 50%;
+
+}
+
+.education h3, .education p
+{
+    margin:5px;
+
+}
+
+.text-muted
+{
+    color:#777;
+}
+
+.education-footer
+{
+    display:flex;
+    justify-content: space-between;
+}
+
+.main
+{
+    display:flex;
+    
+}
+
+.education div
+{
+    margin:15px;
+    
+}
+/* margin shorthand: top right bottom left */
+
+.skills ul
+{
+   display:flex;
+   margin-left: 5px;
+   flex-wrap: wrap;
+   margin-bottom: 20px;
+
+}
+
+.skills ul li
+{
+    background-color:  #838383;
+    margin-right:5px;
+    list-style-type: none;
+    border-radius: 5px;
+    padding:5px;
+    margin-bottom:5px;
+    margin-top: 10px;
+
+
+}
+
+.co-curricular 
+{
+    list-style-type:circle;
+    margin:5px;
+    
+}
+
+.co-curricular ul
+{
+    margin:20px;
+    padding:0px;
+}
+
+.projects{
+
+    margin-top:30px;
+}
+.projects dt
+{
+    font-weight: bolder;
+    margin:10px;
+    
+    
+
+}
+
+.projects dd{
+    margin-left:50px;
+}
+
+.projects h2{
+    margin-top:20px;
+}
+/* for responsiveness and use of mediaqueries, try this */
+
+/* flex-basis :100%  or flex-basis:auto and flex-direction:column */
