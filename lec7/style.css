@@ -3,12 +3,13 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
+  
 }
 
 body
 {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-    
+   
 }
 /* 
 body{
@@ -37,8 +38,11 @@ body{
 
     display:flex;
     flex-direction: column;
-    flex-grow:1;
+    flex-grow:2;
     padding:40px;
+
+    
+    
 }
 
 .email
@@ -78,8 +82,13 @@ body{
 .main
 {
     display:flex;
+    /* max-width: 768px; */
+    /* flex-basis:auto; */
+    /* flex-direction: column; */
     
 }
+
+
 
 .education div
 {
@@ -146,3 +155,32 @@ body{
 /* for responsiveness and use of mediaqueries, try this */
 
 /* flex-basis :100%  or flex-basis:auto and flex-direction:column */
+
+
+
+@media screen and (max-width: 768px){
+    .main
+    {
+        
+        flex-basis:auto;
+        flex-direction: column;
+    }
+}
+
+
+
+@media screen and (max-width: 768px){
+    #objective
+    {
+        
+        flex-basis:60%;
+    }
+
+    .header{
+        flex-wrap:wrap;
+    }
+}
+
+/* main ko flex wrap as wrap and dono child div ko flex basis as 100%
+yaa toh dono child div mein flex basis as 100% and flex shrink 0 */
+
