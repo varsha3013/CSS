@@ -1,0 +1,74 @@
+a:link
+{
+    color:black;
+}
+
+a:visited
+{
+    color:yellow;
+}
+
+a:hover 
+{
+    color:red;
+}
+
+a:active 
+{
+    color:blue;
+}
+
+button
+{
+    padding:5px;
+    margin:10px;
+    
+}
+
+button:hover
+{
+    color:red;
+}
+
+.heading::before 
+{
+    content:'eee';
+}
+
+
+.required::after
+{
+    justify-content: center;
+    content:'*';
+    color:red;
+}
+
+/* heading ke andar jo b hai uske pehle kuch b chahiye, toh heading::before  deke vo likh */
+/* usecase: form mein jaha jaha dreopdown ke liye arrow, yaa required field ke liye star */
+
+/* siblings mein jitne bhi li hai unko ye apply kr, in the form an+b, here: 3n+0 hai, n starts from 0 */
+/* har 3rd nth elem ko red color de */
+/* inside a particular div, it will count all siblings, but color usko hi dega jisko tune likha hai */
+/* it is a functional pseudo class */
+.list li:nth-child(3n)
+{
+    color:red;
+}
+
+.list li:nth-child(3n+1)
+{
+    color:aquamarine;
+}
+
+.list li:nth-child(-n+4)
+{
+    color:cornflowerblue;
+}
+/* poore page mein jitne bhi p honge, and jo even position pe honge, unko yellow color dega */
+.p:nth-child(even)
+{
+    color:yellow;
+}
+/* nth child of selector
+
+of <selector>, see from mdn what it is*/
